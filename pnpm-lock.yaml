@@ -1,41 +1,17 @@
 lockfileVersion: '6.0'
 
+overrides:
+  '@gaoding/editor-sdk': https://registry.npmmirror.com/@gaoding/editor-sdk/-/editor-sdk-0.2.17.tgz
+
 dependencies:
   '@gaoding/editor-sdk':
-    specifier: ^2.2.5
-    version: registry.npmjs.org/@gaoding/editor-sdk@2.2.5
+    specifier: https://registry.npmmirror.com/@gaoding/editor-sdk/-/editor-sdk-0.2.17.tgz
+    version: '@registry.npmmirror.com/@gaoding/editor-sdk/-/editor-sdk-0.2.17.tgz'
 
 packages:
 
-  /axios@0.21.4:
-    resolution: {integrity: sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==}
-    dependencies:
-      follow-redirects: 1.15.2
-    transitivePeerDependencies:
-      - debug
-    dev: false
-
-  /follow-redirects@1.15.2:
-    resolution: {integrity: sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA==}
-    engines: {node: '>=4.0'}
-    peerDependencies:
-      debug: '*'
-    peerDependenciesMeta:
-      debug:
-        optional: true
-    dev: false
-
-  /penpal@5.3.0:
-    resolution: {integrity: sha512-ezGckenx66j3RShl4nZiswjgDxyoDaJJ9tLBp46UvVxlA9MlIPF6hWfuppw1AzaDKgUULU1i44QFOuI4SXY/mg==}
-    dev: false
-
-  registry.npmjs.org/@gaoding/editor-sdk@2.2.5:
-    resolution: {integrity: sha512-9KCHTuA/fDpggBHzkNHc820POe7AvcBFP9/ouNZtpJzfkHEhCgSp/eb3jeb3m/8MuZyIfpVrxEYPM50clFKVFw==, registry: https://registry-npm.gaoding.com/, tarball: https://registry.npmjs.org/@gaoding/editor-sdk/-/editor-sdk-2.2.5.tgz}
+  '@registry.npmmirror.com/@gaoding/editor-sdk/-/editor-sdk-0.2.17.tgz':
+    resolution: {tarball: https://registry.npmmirror.com/@gaoding/editor-sdk/-/editor-sdk-0.2.17.tgz}
     name: '@gaoding/editor-sdk'
-    version: 2.2.5
-    dependencies:
-      axios: 0.21.4
-      penpal: 5.3.0
-    transitivePeerDependencies:
-      - debug
+    version: 0.2.17
     dev: false
